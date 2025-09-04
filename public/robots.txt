@@ -1,0 +1,28 @@
+User-agent: *
+Allow: /
+
+# Allow all major search engines
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Slurp
+Allow: /
+
+User-agent: DuckDuckBot
+Allow: /
+
+# Disallow access to API routes
+Disallow: /api/
+Disallow: /_next/
+Disallow: /admin/
+
+# Disallow access to development files
+Disallow: /src/
+Disallow: /scripts/
+Disallow: /tests/
+
+# Sitemap
+Sitemap: https://yourapp.com/sitemap.xml
